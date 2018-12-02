@@ -1,6 +1,7 @@
 package eksamen2016;
 
 import java.util.Comparator;
+import java.util.Stack;
 
 public class SBinTre<T>
 {
@@ -66,18 +67,15 @@ public class SBinTre<T>
 
     public boolean tom()
     {
-        if (antall() == 0){
-            return true;
-        }
-        return false;
+        return rot == null;
     }
 
     public void settvAntall()
     {
-        // kode mangler - skal lages
+        settvAntall(rot);
     }
 
-    private static <T> int settvAntall(Node<T> p){
+    private static  <T> int settvAntall(Node<T> p){
         if (p == null) return 0;
         return (p.vAntall = settvAntall(p.venstre)) + settvAntall(p.høyre) + 1;
     }
@@ -87,6 +85,13 @@ public class SBinTre<T>
     public T preorden(int indeks)
     {
         // kode mangler - skal lages
+        Stack<Node<T>> stack = new Stack<>();
+        Node<T> p = rot;
+        stack.add(p);
+        while (true){
+            stack.add(p);
+
+        }
     }
 
 } // SBinTre
