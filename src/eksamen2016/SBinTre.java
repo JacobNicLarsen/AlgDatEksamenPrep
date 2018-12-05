@@ -81,7 +81,6 @@ public class SBinTre<T>
     }
 
 
-
     public T preorden(int indeks)
     {
         // kode mangler - skal lages
