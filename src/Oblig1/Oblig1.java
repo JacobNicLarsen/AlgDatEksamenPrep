@@ -17,7 +17,7 @@ public class Oblig1 {
         a[i] = a[j];
         a[j] = temp;
     }
-
+//Oppgave 1
     public static int maks(int[] a){
         if (a.length == 0) throw new IllegalArgumentException("Kan ikke ha en tom array");
 
