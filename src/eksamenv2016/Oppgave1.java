@@ -1,28 +1,22 @@
 package eksamenv2016;
 
 import eksamenv2016.hjelpeklasser.*;
+import eksamenv2016.oppgave3.SBinTre;
 
 import java.util.ArrayDeque;
+import java.util.Comparator;
 import java.util.LinkedList;
 import java.util.Queue;
 
 public class Oppgave1 {
     public static void main(String[] args) {
-        Kø<String> A = new TabellKø<>();      // oppretter kø A
-        Kø<String> B = new TabellKø<>();      // oppretter kø B
+        SBinTre sBinTre = new SBinTre(Comparator.naturalOrder());
+        int[] array = { 7, 4, 18, 1, 6, 14, 30, 12, 15, 9, 25, 22, 27, 10, 20};
 
-        String[] navn1 = {"Per","Kari","Elin","Ali","Jens"};
-        String[] navn2 = {"Åse","Ole","Kjersti"};
-
-        for (String n : navn1) A.leggInn(n);  // legger inn i kø A
-        for (String n : navn2) B.leggInn(n);  // legger inn i kø B
-
-        System.out.println(A + "  " + B);     // skriver ut A og B
-        flytt(A,B);                           // B flyttes over i A
-        System.out.println(A + "  " + B);     // skriver ut A og B
-
-        // Utskrift: [Per, Kari, Elin, Ali, Jens]  [Åse, Ole, Kjersti]
-               //[Per, Åse, Kari, Ole, Elin, Kjersti, Ali, Jens]  []
+        for (int ettall : array){
+            sBinTre.leggInn(ettall);
+        }
+        System.out.println(sBinTre.dybde(10));
     }
 
     public static <T> int indeks(Stakk<T> s, T verdi){
