@@ -80,30 +80,53 @@ public class SBinTre<T> implements Iterable<T>
         return true;  // vellykket innlegging
     }
 
-    public int dybde(T verdi)
+    private int dybde(T verdi, Node<T> p)
     {
-        Node<T> p = rot;
-        int dybde = 0;
-
-        if (tom()) return 0;
+        int dybde = -1;
 
         while (p != null)
         {
             dybde++;
-
             int cmp = comp.compare(verdi, p.verdi);
+
             if (cmp < 0) p = p.venstre;
-            else if (cmp > 0)  p = p.høyre;
+            else if (cmp > 0) p = p.høyre;
             else return dybde;
         }
         return -1;
     }
 
+    public int dybde(T verdi)
+    {
+        return dybde(verdi, rot);
+    }
+
     public int avstand(T verdi1, T verdi2)
     {
-        if (dybde(verdi1) == -1||dybde(verdi2) == -1) throw new IllegalArgumentException("En av nodene er ikke i treet");
-        Stakk<T> stakk = new LenketStakk<>();
+        if (comp.compare(verdi1,verdi2) < 0){ // Setter verdi 1 til laveste verdien av 1 og 2
+            T temp = verdi1;
+            verdi1 = verdi2;
+            verdi2 = temp;
+        }
 
+        Node<T> p = rot;
+
+        while (p != null){
+            if (comp.compare(verdi2, verdi1) < 0)
+                p = p.venstre;
+            else if (comp.compare(verdi1, p.verdi) > 0)
+                p = p.høyre;
+            else break;
+        }
+
+        if (p == null)
+            throw new IllegalArgumentException("Verdi ikke i treet");
+        int dybde1 = dybde(verdi1,p), dybde2 = dybde(verdi2,p);
+
+        if (dybde1 == -1 || dybde2 == -1)
+            throw new IllegalArgumentException("Verdien ligger ikke i treet");
+
+        return dybde1 + dybde2;
     }
 
     public int diameter()
