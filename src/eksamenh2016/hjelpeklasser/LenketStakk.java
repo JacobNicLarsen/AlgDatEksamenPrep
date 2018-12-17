@@ -1,4 +1,4 @@
-package eksamenv2016.hjelpeklasser;
+package eksamenh2016.hjelpeklasser;
 
 public class LenketStakk<T> implements Stakk<T>
 {

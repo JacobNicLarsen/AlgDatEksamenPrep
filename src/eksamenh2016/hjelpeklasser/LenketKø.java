@@ -1,4 +1,4 @@
-package eksamenv2016.hjelpeklasser;
+package eksamenh2016.hjelpeklasser;
 
 public class LenketKø<T> implements Kø<T>  {
     private static final class Node<T>   // en indre nodeklasse

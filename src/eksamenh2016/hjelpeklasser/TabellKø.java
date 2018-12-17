@@ -1,4 +1,4 @@
-package eksamenv2016.hjelpeklasser;
+package eksamenh2016.hjelpeklasser;
 
 
 import java.util.NoSuchElementException;

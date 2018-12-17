@@ -1,12 +1,9 @@
-package eksamenv2016;
+package eksamenh2016;
 
-import eksamenv2016.hjelpeklasser.*;
-import eksamenv2016.oppgave3.SBinTre;
+import eksamenh2016.hjelpeklasser.*;
+import eksamenh2016.oppgave3.SBinTre;
 
-import java.util.ArrayDeque;
 import java.util.Comparator;
-import java.util.LinkedList;
-import java.util.Queue;
 
 public class Oppgave1 {
     public static void main(String[] args) {

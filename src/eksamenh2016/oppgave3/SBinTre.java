@@ -1,8 +1,7 @@
-package eksamenv2016.oppgave3;
+package eksamenh2016.oppgave3;
 
-import eksamenv2016.hjelpeklasser.LenketStakk;
-import eksamenv2016.hjelpeklasser.Stakk;
-import eksamenv2016.hjelpeklasser.TabellStakk;
+import eksamenh2016.hjelpeklasser.Stakk;
+import eksamenh2016.hjelpeklasser.TabellStakk;
 
 import java.util.Comparator;
 import java.util.Iterator;

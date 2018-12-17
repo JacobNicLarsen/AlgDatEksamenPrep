@@ -42,7 +42,6 @@ public class Main {
 
     //Oppgave 1B.
     public static int finn(int[] a, int verdi){
-
         return binærsøk(a,0,a.length,verdi);
     }
 

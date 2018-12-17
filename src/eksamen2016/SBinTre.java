@@ -54,15 +54,14 @@ public class SBinTre<T>
 
         return true;
     }
-    public int antall()
-    {
+    public int antall(){
         Node<T> p = rot;
-        int sumAntall = 0;
+        int antall = 0;
         while (p.høyre != null){
-            sumAntall++;
-            sumAntall += p.vAntall;
+            antall += (p.vAntall + 1);
+            p = p.høyre;
         }
-        return sumAntall;
+        return antall;
     }
 
     public boolean tom()
