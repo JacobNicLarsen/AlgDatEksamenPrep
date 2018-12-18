@@ -28,21 +28,21 @@ public class GenerelleKodeOppgave {
             left++; right--;
         }
     }
-    public static int finn(int[] a, int verdi){
-        int v = 0, h = a.length - 1;  // v og h er intervallets endepunkter
 
-        while (v < h)  // obs. må ha v < h her og ikke v <= h
-        {
-            int m = (v + h)/2;  // heltallsdivisjon - finner midten
+    public static int finn(int a[], int verdi){
+        int l = 0, r = a.length - 1;
 
-            if (verdi > a[m]) v = m + 1;   // verdi må ligge i a[m+1:h]
-            else  h = m;                   // verdi må ligge i a[v:m]
+        while (l < r){
+            int m = (l + r) / 2;
+
+            if (a[m] < verdi) l = m + 1;
+            else r = m;
         }
-        if (h < v || verdi < a[v]) return -(v + 1);  // ikke funnet
-        else if (verdi == a[v]) return v;            // funnet
-        else  return -(v + 2);                       // ikke funnet
-    }
 
+        if (r < l || a[l] > verdi) return -(l + 1);
+        else if (a[l] == verdi) return l;
+        else return -(l + 2);
+    }
 
 
 
