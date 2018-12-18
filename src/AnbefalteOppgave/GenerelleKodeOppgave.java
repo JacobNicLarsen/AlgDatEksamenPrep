@@ -5,8 +5,12 @@ import java.util.*;
 public class GenerelleKodeOppgave {
 
     public static void main(String[] args) {
-        int[] array = {-3,41,5,-3,2,49};
-
+        int[] a = {2, 3, 5, 7, 10, 12, 12, 15, 18, 20};
+        System.out.println( finn(a, 1) );   // utskrift -1
+        System.out.println( finn(a, 12) );  // utskrift 5
+        System.out.println( finn(a, 16) );  // utskrift -9
+        System.out.println( finn(a, 21) );  // utskrift -11
+        System.out.println( finn(a, 11) );  // utskrift -5
 
     }
 
@@ -17,31 +21,30 @@ public class GenerelleKodeOppgave {
     }
 
     public static void snu(int[] a){
-        int l = 0, r = a.length;
-        while (l < r){
-            bytt(a, l++, r--);
+        int left = 0, right = a.length - 1;
+
+        while (left<right){
+            bytt(a,left,right);
+            left++; right--;
         }
     }
+    public static int finn(int[] a, int verdi){
+        int v = 0, h = a.length - 1;  // v og h er intervallets endepunkter
 
-    public static int binærsøk(int a[], int verdi){
-        return binærsøk(a,0,a.length,verdi);
-    }
+        while (v < h)  // obs. må ha v < h her og ikke v <= h
+        {
+            int m = (v + h)/2;  // heltallsdivisjon - finner midten
 
-    public static int binærsøk(int[] a, int fra, int til, int verdi){
-        throw new IllegalArgumentException("Prøv på nytt");
-    }
-
-    public static <T> int compare(List<T> a, List<T> b, Comparator<? super T> comp){
-        Iterator<T> ia = a.iterator(), ib = b.iterator();
-        int antall = Math.min(a.size(), b.size());
-
-        for (int i = 0; i < antall; i++) {
-            int cmp = comp.compare(ia.next(), ib.next());
-            if (cmp != 0) return cmp;
+            if (verdi > a[m]) v = m + 1;   // verdi må ligge i a[m+1:h]
+            else  h = m;                   // verdi må ligge i a[v:m]
         }
-
-        return a.size() - b.size();
+        if (h < v || verdi < a[v]) return -(v + 1);  // ikke funnet
+        else if (verdi == a[v]) return v;            // funnet
+        else  return -(v + 2);                       // ikke funnet
     }
+
+
+
 
     public static <T> int indeks(Stack<T> s, T verdi){
         Stack<T> s2 = new Stack<>();

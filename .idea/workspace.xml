@@ -1,27 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/AnbefalteOppgave/GenerelleKodeOppgave.java" line="76" />
+    <bookmark url="file://$PROJECT_DIR$/src/AnbefalteOppgave/GenerelleKodeOppgave.java" line="79" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="603cf38d-9e70-4f0d-85a3-5afff9362749" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/AnbefalteOppgave/GenerelleKodeOppgave.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AnbefalteOppgave/Huffman.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/eksamenv2015/Mengde.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/eksamenv2015/SBinTre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/eksamen2014/Oppgave1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/eksamen2014/Oppgave2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/eksamen2014/SBinTre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/eksamenH2013/Oppgave1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/eksamenH2013/SBinTre.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Eksamenprep/eksamen2016/SBinTre.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Eksamenprep/eksamen2016/SBinTre.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Eksamenprep/eksamen2017/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Eksamenprep/eksamen2017/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eksamen2016/SBinTre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eksamen2016/SBinTre.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eksamen2017/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eksamen2017/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eksamenv2016/Oppgave1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eksamenh2016/Oppgave1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eksamenv2016/hjelpeklasser/Kø.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eksamenh2016/hjelpeklasser/Kø.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eksamenv2016/hjelpeklasser/LenketKø.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eksamenh2016/hjelpeklasser/LenketKø.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eksamenv2016/hjelpeklasser/LenketStakk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eksamenh2016/hjelpeklasser/LenketStakk.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eksamenv2016/hjelpeklasser/Stakk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eksamenh2016/hjelpeklasser/Stakk.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eksamenv2016/hjelpeklasser/TabellKø.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eksamenh2016/hjelpeklasser/TabellKø.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eksamenv2016/hjelpeklasser/TabellStakk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eksamenh2016/hjelpeklasser/TabellStakk.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eksamenv2016/oppgave3/SBinTre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eksamenh2016/oppgave3/SBinTre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AnbefalteOppgave/GenerelleKodeOppgave.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnbefalteOppgave/GenerelleKodeOppgave.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -73,35 +63,36 @@
     <session id="-1630199991">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="10" />
+          <entry key="project.closed" value="12" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="2" />
-          <entry key="project.open.time.9" value="6" />
-          <entry key="project.opened" value="12" />
+          <entry key="project.open.time.9" value="7" />
+          <entry key="project.opened" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="9303" />
+          <entry key="java" value="12438" />
           <entry key="txt" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="9303" />
+          <entry key="JAVA" value="12438" />
           <entry key="PLAIN_TEXT" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="18" />
+          <entry key="java" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="18" />
+          <entry key="JAVA" value="23" />
         </counts>
       </usages-collector>
     </session>
@@ -109,37 +100,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/eksamenv2015/SBinTre.java">
+        <entry file="file://$PROJECT_DIR$/src/eksamen2014/Oppgave1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2737">
-              <caret line="161" column="9" selection-start-line="161" selection-start-column="9" selection-end-line="161" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/AnbefalteOppgave/GenerelleKodeOppgave.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-741">
-              <caret line="65" column="44" lean-forward="true" selection-start-line="65" selection-start-column="44" selection-end-line="65" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/eksamen2017/SBinTre.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="42" selection-start-line="42" selection-end-line="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/eksamen2016/SBinTre.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1003">
-              <caret line="60" column="37" selection-start-line="60" selection-start-column="37" selection-end-line="60" selection-end-column="37" />
+            <state relative-caret-position="408">
+              <caret line="25" column="49" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -148,9 +112,57 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/eksamen2014/Oppgave2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/eksamen2014/SBinTre.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1904">
+              <caret line="114" column="37" selection-start-line="114" selection-start-column="37" selection-end-line="114" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/eksamenH2013/Oppgave1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/eksamenH2013/SBinTre.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="721">
+              <caret line="110" column="22" selection-start-line="110" selection-start-column="22" selection-end-line="110" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#529#530#0" expanded="true" />
+                <element signature="e#582#583#0" expanded="true" />
+                <element signature="e#847#848#0" expanded="true" />
+                <element signature="e#876#877#0" expanded="true" />
+                <element signature="e#908#909#0" expanded="true" />
+                <element signature="e#942#943#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AnbefalteOppgave/Huffman.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="536">
+            <state relative-caret-position="544">
               <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
             </state>
           </provider>
@@ -237,9 +249,14 @@
         <option value="$PROJECT_DIR$/src/eksamenh2016/oppgave3/SBinTre.java" />
         <option value="$PROJECT_DIR$/src/eksamen2016/SBinTre.java" />
         <option value="$PROJECT_DIR$/src/AnbefalteOppgave/Huffman.java" />
-        <option value="$PROJECT_DIR$/src/AnbefalteOppgave/GenerelleKodeOppgave.java" />
         <option value="$PROJECT_DIR$/src/AnbefalteOppgave/Liste.java" />
         <option value="$PROJECT_DIR$/src/AnbefalteOppgave/Ansatt.java" />
+        <option value="$PROJECT_DIR$/src/AnbefalteOppgave/GenerelleKodeOppgave.java" />
+        <option value="$PROJECT_DIR$/src/eksamen2014/Oppgave1.java" />
+        <option value="$PROJECT_DIR$/src/eksamen2014/Oppgave2.java" />
+        <option value="$PROJECT_DIR$/src/eksamen2014/SBinTre.java" />
+        <option value="$PROJECT_DIR$/src/eksamenH2013/Oppgave1.java" />
+        <option value="$PROJECT_DIR$/src/eksamenH2013/SBinTre.java" />
       </list>
     </option>
   </component>
@@ -260,6 +277,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -276,39 +295,25 @@
               <item name="AlgDatEksamenPrep" type="b2602c69:ProjectViewProjectNode" />
               <item name="AlgDatEksamenPrep" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="AnbefalteOppgave" type="462c0819:PsiDirectoryNode" />
+              <item name="eksamen2014" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AlgDatEksamenPrep" type="b2602c69:ProjectViewProjectNode" />
               <item name="AlgDatEksamenPrep" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="eksamen2016" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AlgDatEksamenPrep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AlgDatEksamenPrep" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="eksamen2017" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AlgDatEksamenPrep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AlgDatEksamenPrep" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="eksamenv2015" type="462c0819:PsiDirectoryNode" />
+              <item name="eksamenH2013" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545051844454" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545101692533" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -325,22 +330,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Liste">
+  <component name="RunManager" selected="Application.Oppgave2">
     <configuration name="GenerelleKodeOppgave" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AnbefalteOppgave.GenerelleKodeOppgave" />
-      <module name="Eksamenprep" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="AnbefalteOppgave.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Liste" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AnbefalteOppgave.Liste" />
       <module name="Eksamenprep" />
       <extension name="coverage">
         <pattern>
@@ -365,12 +357,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Oppgave1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="eksamenh2016.Oppgave1" />
+    <configuration name="Oppgave1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="eksamen2014.Oppgave1" />
       <module name="Eksamenprep" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="eksamenh2016.*" />
+          <option name="PATTERN" value="eksamen2014.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Oppgave2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="eksamen2014.Oppgave2" />
+      <module name="Eksamenprep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="eksamen2014.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -392,19 +397,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Oppgave1" />
       <item itemvalue="Application.Mengde" />
       <item itemvalue="Application.SBinTre" />
       <item itemvalue="Application.GenerelleKodeOppgave" />
-      <item itemvalue="Application.Liste" />
+      <item itemvalue="Application.Oppgave1 (1)" />
+      <item itemvalue="Application.Oppgave2" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Liste" />
+        <item itemvalue="Application.Oppgave2" />
+        <item itemvalue="Application.Oppgave1 (1)" />
         <item itemvalue="Application.GenerelleKodeOppgave" />
         <item itemvalue="Application.SBinTre" />
         <item itemvalue="Application.Mengde" />
-        <item itemvalue="Application.Oppgave1" />
       </list>
     </recent_temporary>
   </component>
@@ -444,7 +449,9 @@
       <workItem from="1544829766161" duration="2565000" />
       <workItem from="1544876015770" duration="11151000" />
       <workItem from="1544958889899" duration="14347000" />
-      <workItem from="1545048443131" duration="3016000" />
+      <workItem from="1545048443131" duration="3045000" />
+      <workItem from="1545080321797" duration="10584000" />
+      <workItem from="1545099994780" duration="1695000" />
     </task>
     <task id="LOCAL-00001" summary="Oppgave 4">
       <created>1543784447247</created>
@@ -495,17 +502,24 @@
       <option name="project" value="LOCAL" />
       <updated>1544780616130</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Eksamen2016">
+      <created>1545051863428</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1545051863428</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77812000" />
+    <option name="totallyTimeSpent" value="90120000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24733475" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -573,9 +587,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -601,12 +612,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="833">
           <caret line="53" column="51" selection-start-line="53" selection-start-column="51" selection-end-line="53" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/AnbefalteOppgave/Liste.java" />
+    <entry file="file://$PROJECT_DIR$/src/AnbefalteOppgave/Ansatt.java" />
     <entry file="file://$PROJECT_DIR$/src/eksamenv2015/SBinTre.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2737">
@@ -628,6 +638,54 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AnbefalteOppgave/GenerelleKodeOppgave.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/eksamen2014/Oppgave1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="25" column="49" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/eksamen2014/Oppgave2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/eksamen2014/SBinTre.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1904">
+          <caret line="114" column="37" selection-start-line="114" selection-start-column="37" selection-end-line="114" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AnbefalteOppgave/Huffman.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/eksamen2016/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -656,42 +714,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AnbefalteOppgave/Huffman.java">
+    <entry file="file://$PROJECT_DIR$/src/eksamenH2013/Oppgave1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="536">
-          <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
+        <state relative-caret-position="493">
+          <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AnbefalteOppgave/Liste.java">
+    <entry file="file://$PROJECT_DIR$/src/eksamenH2013/SBinTre.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AnbefalteOppgave/Ansatt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="47" column="49" selection-start-line="47" selection-start-column="49" selection-end-line="47" selection-end-column="49" />
+        <state relative-caret-position="721">
+          <caret line="110" column="22" selection-start-line="110" selection-start-column="22" selection-end-line="110" selection-end-column="22" />
           <folding>
-            <element signature="e#995#996#0" expanded="true" />
-            <element signature="e#1066#1067#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#529#530#0" expanded="true" />
+            <element signature="e#582#583#0" expanded="true" />
+            <element signature="e#847#848#0" expanded="true" />
+            <element signature="e#876#877#0" expanded="true" />
+            <element signature="e#908#909#0" expanded="true" />
+            <element signature="e#942#943#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/eksamen2016/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AnbefalteOppgave/GenerelleKodeOppgave.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-741">
-          <caret line="65" column="44" lean-forward="true" selection-start-line="65" selection-start-column="44" selection-end-line="65" selection-end-column="44" />
         </state>
       </provider>
     </entry>
